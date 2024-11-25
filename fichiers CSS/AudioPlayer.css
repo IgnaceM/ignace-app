@@ -62,9 +62,20 @@ body {
   position: absolute;
   bottom: 23%;
 }
-.audio-info h2
+
 .audio-info h3 {
-  
+ margin-bottom: 30px !important;
+ font-weight: normal;
+ color: rgb(166, 164, 164);
+ font-size: 15px !important;
+ width: 80%;
+ margin: auto;
+ 
+}
+
+.audio-info h4 {
+  margin-bottom: 20px !important;
+  margin-top: -20px;
 }
 
 footer {

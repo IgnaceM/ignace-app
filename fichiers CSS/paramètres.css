@@ -116,8 +116,12 @@ header {
 }
 
 .theme1:active , .theme2:active , .theme3:active , .theme4:active {
-  border: 2px solid red;
+  /* border: 1px solid red; */
  }
+
+.active {
+  border: 5px solid green;
+}
 
 
 .theme1 img , .theme2 img , .theme3 img , .theme4 img {
@@ -159,6 +163,7 @@ header {
     color: white !important;
   }
   
+ 
   
   
   section {
@@ -239,6 +244,9 @@ header {
    scale: 0.96;
   }
   
+  .active {
+    border: 3px solid green;
+  }
   
   .theme1 img , .theme2 img , .theme3 img , .theme4 img {
     width: 100%;

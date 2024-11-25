@@ -21,7 +21,7 @@ body {
 }
 
 .green {
-	background: linear-gradient(to left , rgb(32, 0, 32) , rgb(8, 49, 0)) !important;
+	background: linear-gradient(to left , rgb(25, 0, 25) , rgb(5, 30, 0)) !important;
 	color: gray !important;
 }
 
