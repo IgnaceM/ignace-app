@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Paramètres</title>
+  <link rel="stylesheet" href="../fichiers CSS/paramètres.css">
+</head>
+<body>
+  <section>
+    <header>
+      <div class="retour">
+        <a href="..\fichiers HTMLS\Home.html"
+          ><img src="..\images\Left_50px.png" alt=""
+        /></a>
+      </div>
+      <div>
+        <h4 class="clique">Paramètres</h4>
+      </div>
+      <div>
+        <a style="text-decoration: none; color: gray;" href="../fichiers HTMLS/Home.html"><h4 id="saveTheme">Sauvegarder</h4></a>
+      </div>
+    </header>
+    <div class="container">
+      <!-- <div class="infos">
+        <p>Débloquez toutes les fonctionnalités de l'application</p>
+      </div>
+      <div class="premiumContainer">
+        <div class="premium">
+          <img src="../images/icons8_Diamond_16.png" alt="">
+          <h4>Obtenir la version premium</h4>
+        </div>
+      </div>   -->
+      
+      <div class="themes" id="themeGrid">
+        <h4 class="theme">Thèmes</h4>
+        <div class="themesContainer">
+          <div class="theme1" data-theme="white" onclick="applyTheme('theme2')">
+            <img src="../images/themes/theme1.png" alt="" >
+          </div>
+          <div class="theme1" onclick="applyTheme('theme1')" data-theme="blue">
+            <img src="../images/themes/theme2.png" alt="">
+          </div>
+          <div class="theme1"  onclick="applyTheme('theme3')" data-theme="black">
+            <img src="../images/themes/theme3.png" alt="">
+          </div>
+          <div class="theme1">
+            <img src="../images/themes/theme4.png" alt="" onclick="applyTheme('theme4')">
+          </div>
+          <div class="theme1">
+            <img src="../images/themes/theme5.png" alt="" onclick="applyTheme('theme5')">
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <script>
+    function applyTheme(theme){
+      window.localStorage.setItem("theme" , theme);
+      applyTheme(theme)
+    }
+  </script>
+
+  <script src="../fichiers JS/script.js"></script>
+</body>
+</html>

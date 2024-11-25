@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="fr">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Lecteur Audio</title>
+		<link rel="stylesheet" href="../fichiers CSS/AudioPlayer.css">
+	</head>
+	<body style="background: url('../images/speakers/02662c5dcc3ed.png');">
+		<div class="fond" style="background:  linear-gradient(to right , rgb(34, 0, 34) , rgb(0, 21, 30) ); position: absolute; width: 100%; height: 100%; opacity: 85%;">
+
+		</div>
+		<div class="player-container">
+			
+			<div class="header">
+				<div class="retour">
+					<a href="..\fichiers HTMLS\Audios.html"
+						><img src="..\images\Left_50px.png" height="30px" width="30px" style="position: absolute; left: 7px;" alt=""
+					/></a>
+					
+				</div>
+				<div class="icons">
+					<img src="../images/icons8_Menu_2_32.png" alt="">
+				</div>
+			</div>
+			<div class="cover-image">
+				<img src="../images/notesImages/356-3562324_app-logo-youtube-music-icon.png" id="img" alt="Album Cover" />
+				<!-- <img src="..\images\gif.gif" id="gif" style="position: absolute; width: 100%; left: 0%;margin-bottom: 30px; z-index: -1; height: 80px; top: 55%;" alt=""> -->
+			</div>
+			<div class="audio-info" style="margin-top: 30px;">
+					<h3 style="margin-bottom: 40px;">Discours d'inspiration : Mets Dieu en premier</h3>
+				<h5 style="color: royalblue;">Denzel washington</h5>
+			</div>
+			<footer>
+				<audio id="audio-player" src="..\fichiers Audios/Mets_Dieu_en_Premier___Discours_d_inspiration_de_Denzel_Washington(256k).mp3"></audio>
+				<div class="progress-container">
+					<span id="current-time" style="font-size: 15px;" class="time">00:00</span>
+					<div class="progress-bar">
+						<input type="range" id="progress" value="0" max="100" />
+					</div>
+					<span id="duration-time" class="time" style="font-size: 15px;">00:00</span>
+				</div>
+				<div class="audio-controls">
+					<a href=""><button id="prev-btn"><img src="..\images\Rewind_50px.png" height="35px" width="35px" alt=""></button></a>
+					<button
+						id="play-pause-btn"
+						style="height: 40px;  display: flex; align-items: center; padding-left: 30px;border: 2px solid white; justify-content: center; padding: 30px 23px 30px 23px; border-radius: 50%"
+					>
+					&#9654;
+					</button>
+					<a href="../fichiers  AudioPlayer/Audio2.html"><button id="next-btn"><img src="..\images\Fast Forward_50px.png" height="35px" width="35px" alt=""></button></a>
+				</div>
+			</footer>
+		</div>
+		<script src="../fichiers JS/AudioPlayer.js"></script>
+	</body>
+</html>

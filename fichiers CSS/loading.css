@@ -1,0 +1,99 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  background: linear-gradient(to right , rgb(34, 0, 34) , rgb(0, 21, 30) );
+  color: gray;
+}
+
+.loader {
+  text-align: center;
+  position: absolute;
+  bottom: 50%;
+}
+
+.loader h4 {
+  margin-top: -5px;
+}
+.icon {
+  width: 110px;
+  height: 80px;
+}
+
+.bubbles {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+.bubble {
+  width: 7px;
+  height: 7px;
+  margin: 0 5px;
+  border-radius: 50%;
+  background-color: rgb(180, 179, 179);
+  border: 1px solid gray;
+  animation: pulse 1s infinite;
+}
+
+.bubble.active {
+  background: linear-gradient(to left , royalblue , rgb(171, 1, 171));
+}
+
+@keyframes pulse {
+  0%, 100% {
+      transform: scale(1);
+  }
+  50% {
+      transform: scale(1.2);
+  }
+}
+
+footer{
+  position: absolute;
+  bottom: 20px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+}
+
+
+footer div {
+  display: flex;
+  gap: 10px;
+  
+}
+footer div img {
+  width: 30px;
+  height: 30px;
+  margin-top: 5px;
+}
+
+
+footer span {
+  color: royalblue;
+  margin-left: 10px;
+}
+
+.white {
+  background: #fbf6fd;
+  color: black;
+}
+
+.green {
+	background: linear-gradient(to left , rgb(32, 0, 32) , rgb(8, 49, 0)) !important;
+	color: gray !important;
+}
+
+.teal {
+	background: linear-gradient(to right , rgb(10, 10, 10) , rgb(0, 33, 33)) !important;
+	color: gray !important;
+}
+
+.black {
+  background: black !important;
+  color: white !important;
+}
