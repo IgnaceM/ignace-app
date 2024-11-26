@@ -32,7 +32,7 @@ body {
 
 .black {
 	background: black !important;
-	color: white !important;
+	color: rgb(168, 167, 167) !important;
 }
 
 h4 {
@@ -59,6 +59,7 @@ section {
 	gap: 20px;
 	justify-content: center;
 	text-align: center;
+	padding-top: 100px;
 }
 
 section p {
@@ -66,13 +67,98 @@ section p {
 	line-height: 25px;
 	display: flex;
 	text-align: left;
-	font-size: 14px;
+	font-size: 18px;
+	width: 70%;
+	margin: auto;
 }
 footer {
+	display: flex;
   margin-top: 50px;
   padding-bottom: 20px;
+	align-items: center;
+	
 }
 
 footer span {
   color: royalblue;
+
+}
+
+
+@media (max-width:780px) {
+	body {
+		display: flex;
+		flex-direction: column;
+		height: 100vh;
+		align-items: center;
+		padding: 30px;
+		background: linear-gradient(to right, rgb(34, 0, 34), rgb(0, 21, 30));
+		color: gray;
+	}
+	
+	.white {
+		background: #fbf6fd;
+		color: black;
+	}
+	
+	.green {
+		background: linear-gradient(to left , rgb(25, 0, 25) , rgb(5, 30, 0)) !important;
+		color: gray !important;
+	}
+	
+	.teal {
+		background: linear-gradient(to right , rgb(10, 10, 10) , rgb(0, 33, 33)) !important;
+		color: gray !important;
+	}
+	
+	.black {
+		background: black !important;
+		color: rgb(168, 167, 167) !important;
+		
+	}
+	
+	h4 {
+		color: royalblue;
+	}
+	
+	.retour a {
+		position: absolute;
+		left: 30px;
+		top: 10px;
+	}
+	.retour a img {
+		height: 30px;
+	}
+	
+	header img {
+		height: 60px;
+		width: 80px;
+	}
+	
+	section {
+		padding-top: 80px;
+		display: flex;
+		flex-direction: column;
+		gap: 20px;
+		justify-content: center;
+		text-align: center;
+	}
+	
+	section p {
+		letter-spacing: 1px;
+		line-height: 25px;
+		display: flex;
+		text-align: left;
+		font-size: 14px;
+		width: 100%;
+	}
+	footer {
+		margin-top: 50px;
+		padding-bottom: 20px;
+	}
+	
+	footer span {
+		color: royalblue;
+	}
+	
 }
