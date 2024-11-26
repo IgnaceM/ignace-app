@@ -140,7 +140,9 @@ a {
 
 .livreContent p {
 	font-size: 15px;
-	color: rgb(169, 169, 169) !important;
+	color: gray;
+	line-height: 30px !important;
+	
 }
 footer {
 	position: fixed;
@@ -180,6 +182,53 @@ footer {
 	justify-content: center;
 	align-items: center;
 }
+
+.white {
+	background: #fbf6fd !important;
+	border-top: 1px solid rgb(217, 216, 216);
+}
+
+.white p {
+	color: black !important;
+}
+
+.dark {
+	background: linear-gradient(to left , #ecc9fc , #c9eefc) !important;
+	color: black !important;
+}
+
+
+
+.green {
+	background: linear-gradient(to left , rgb(25, 0, 25) , rgb(5, 30, 0)) !important;
+	color: gray !important;
+}
+.green h4 , h2 {
+	color: white;
+}
+
+.green p {
+	color: gray;
+}
+
+.teal {
+	background: linear-gradient(to right , rgb(10, 10, 10) , rgb(0, 33, 33)) !important;
+	color: gray !important;
+}
+
+.teal p {
+	color: gray;
+}
+
+.teal h4 , h2 {
+	color: white;
+}
+
+.black {
+	background: black !important;
+	color: white !important;
+}
+
 
 @media (max-width: 780px) {
 	body {
@@ -372,4 +421,51 @@ footer {
 	.footerElements a h3 {
 		color: royalblue;
 	}
+
+	.white {
+		background: #fbf6fd !important;
+		border-top: 1px solid rgb(217, 216, 216);
+	}
+
+	.white p {
+		color: black !important;
+	}
+	
+	.dark {
+		background: linear-gradient(to left , #ecc9fc , #c9eefc) !important;
+		color: black !important;
+	}
+
+	
+	
+	.green {
+		background: linear-gradient(to left , rgb(25, 0, 25) , rgb(5, 30, 0)) !important;
+		color: gray !important;
+	}
+	.green h4 , h2 {
+		color: white;
+	}
+
+	.green p {
+		color: white;
+	}
+	
+	.teal {
+		background: linear-gradient(to right , rgb(10, 10, 10) , rgb(0, 33, 33)) !important;
+		color: gray !important;
+	}
+	
+	.teal p {
+		color: white;
+	}
+	
+	.teal h4 , h2 {
+		color: white;
+	}
+	
+	.black {
+		background: black !important;
+		color: white !important;
+	}
+	
 }
