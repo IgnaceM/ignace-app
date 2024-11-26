@@ -238,6 +238,7 @@ footer {
 		overflow-y: scroll;
 		padding-top: 100px;
 		padding-bottom: 100px;
+		
 	}
 
 	a {
@@ -259,9 +260,10 @@ footer {
 		color: black;
 	}
 	.retour {
-		margin-top: 30px;
+		margin-top: 10px;
 		z-index: 1;
 		position: absolute;
+		left: 20px;
 	}
 	.retour img {
 		width: 30px;
@@ -269,22 +271,26 @@ footer {
 		z-index: 1;
 		cursor: pointer;
 		position: absolute;
-		margin-left: 10px;
+		left: 0;
 	}
 
 	.headLivre {
 		display: flex;
 		flex-direction: column;
-		margin-top: 20px;
+		margin-top: 0px;
 		margin-bottom: 20px;
+		position: absolute;
+		width: 100%;
+		left: 0;
+		top: 0;
 	}
 	.headLivre h3 {
 		text-transform: capitalize;
 		color: white;
 		z-index: 1;
-		margin-top: 110px;
+		margin-top: -220px;
 		font-size: 25px;
-		margin-left: 10px;
+		margin-left: 25px;
 		position: absolute;
 	}
 	.imageLivre img {
@@ -292,10 +298,10 @@ footer {
 		left: 0;
 		z-index: 0;
 		opacity: 80%;
-		top: 10%;
+		top: 0%;
 		width: 100%;
 		margin: 0;
-		height: 200px;
+		height: 250px;
 	}
 
 	.livreContent {
@@ -319,6 +325,7 @@ footer {
 		margin-left: 10px !important;
 		color: purple !important;
 		text-transform: capitalize;
+		font-size: 18px !important;
 	}
 	.p {
 		color: black !important;
