@@ -329,6 +329,7 @@ footer {
     padding-bottom: 100px;
     display: flex;
     flex-direction: column;
+    gap: 0px;
   }
   
   .container a {
